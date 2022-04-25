@@ -8,4 +8,3 @@
     - '-r'
     - 'dags'
     - 'gs://${_GCS_BUCKET}/dags'
-- name: gcr.io/cloud-builders/gsutil
