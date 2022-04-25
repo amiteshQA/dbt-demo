@@ -1,5 +1,4 @@
-- name: ubuntu
-  args: ['bash', '-c', "echo '$COMMIT_SHA' > REVISION.txt"]
+steps:
 - name: gcr.io/cloud-builders/gsutil
   args:
     - '-m'
